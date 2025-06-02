@@ -1,4 +1,5 @@
 import OutlinedCard from "@/components/ui/OutlinedCard";
+import BlogArticleList from "@/components/BlogArticleList";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
           <div className="w-full md:flex-1"><OutlinedCard /></div>
         </div>
       </main>
+      <section className="w-full max-w-6xl mx-auto bg-gray-100 rounded-lg min-h-[400px] flex items-center justify-center py-12">
+        <BlogArticleList />
+      </section>
     </div>
   );
 }
